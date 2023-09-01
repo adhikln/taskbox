@@ -157,7 +157,7 @@ var StoryPanel = ({ api }) => {
 addons.register(ADDON_ID, (api) => {
   addons.add(PANEL_ID, {
     type: types.PANEL,
-    title: "LOK",
+    title: "charlie",
     render: ({ active }) =>
       active ? /* @__PURE__ */ React.createElement(StoryPanel, { api }) : null,
     paramKey: "storysource",
